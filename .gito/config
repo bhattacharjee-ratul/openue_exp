@@ -1,0 +1,14 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = git@github.com:zjunlp/OpenUE.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "pytorch"]
+	remote = origin
+	merge = refs/heads/pytorch
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
