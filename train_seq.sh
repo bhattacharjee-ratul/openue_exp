@@ -9,5 +9,5 @@ python run_sequnce_labeling.py \
     --max_seq_length=128 \
     --train_batch_size=32 \
     --learning_rate=2e-5 \
-    --num_train_epochs=9.0 \
+    --num_train_epochs=1.0 \
     --output_dir=./output/sequnce_labeling_model/wwm/

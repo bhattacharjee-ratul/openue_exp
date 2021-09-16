@@ -60,9 +60,19 @@ Once you have installed OpenUE, here are a few examples of what you can run with
 
 1. ***Data Preprocessing***. Put the pretrined language model (e.g., [BERT](https://github.com/google-research/bert)) in the ***pretrained_model*** folder and put all raw data (run script download_ske.sh in the benchmark folder) in the ***raw_data folder***, run
 ```
+--- Go into the folder raw_data and run 
+
 sh download_ske_dataset.sh
+
+--- Go into the folder pretrained model
+
 sh download_bert_cn.sh
+
+--- In the root folder run 
+
 sh preprocess.sh  ske
+
+
 ```
 2. ***Train Sequence Labeling & Classification Model***. Set all parameters in the file config.py and run 
 ```

@@ -9,5 +9,5 @@ python run_classification.py \
     --max_seq_length=128 \
     --train_batch_size=32 \
     --learning_rate=2e-5 \
-    --num_train_epochs=6.0 \
+    --num_train_epochs=1.0 \
     --output_dir=./output/classification_model/wwm/
